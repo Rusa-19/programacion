@@ -3,7 +3,7 @@ usuario2 = int(input("Determine el segundo numero "))
 usuario3 = int(input("Determine el tercero numero "))
 # Determinar el mayor de los tres numeros
 if usuario >= usuario2 and usuario >= usuario3:
-    mayor = usuario2
+    mayor = usuario
 elif usuario2 >= usuario1 and usuario2 >= usuario3:
     mayor = usuario2
 else:
