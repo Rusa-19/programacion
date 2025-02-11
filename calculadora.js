@@ -33,14 +33,14 @@ function calculadora() {
         output: process.stdout
     });
 
-    function calcular() { // Función interna para realizar una operación
+    function calcular() { 
         menu();
 
         rl.question("Elija una opcion: ", (opcion) => {
             if (opcion === "5") {
                 console.log("Vuelve pronto!");
                 rl.close();
-                return; // Salir del bucle y del programa
+                return;
             }
 
             rl.question("Ingrese el primer numero: ", (input1) => {
